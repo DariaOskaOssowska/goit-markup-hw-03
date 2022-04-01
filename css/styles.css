@@ -37,6 +37,18 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* ========= COMPONENTS ======== */
 .header {
   background-color: var(--light-bgc);
@@ -49,7 +61,6 @@ p {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .footer {
@@ -73,7 +84,6 @@ p {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: var(--main-colorFont);
 }
 
@@ -194,12 +204,10 @@ p {
 
 /* ==========  FOOTER =========== */
 .footer-address-maps {
-  text-decoration: none;
   color: var(--third-colorFont);
 }
 .footer-address-mail,
 .footer-address-phone {
-  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
