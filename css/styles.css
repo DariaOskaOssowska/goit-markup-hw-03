@@ -49,6 +49,18 @@ img {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ========= COMPONENTS ======== */
 .header {
   background-color: var(--light-bgc);
@@ -100,6 +112,39 @@ img {
 }
 /* ========= END LOGO ========== */
 
+.header .container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-logo {
+  margin-right: 93px;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-address-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-address-phone {
+  margin-left: 50px;
+}
+
 .navigation-list-link {
   color: var(--main-colorFont);
 }
@@ -125,6 +170,10 @@ img {
 
 /* ==========   MAIN   ========== */
 /* =======   HERO up side ======= */
+.hero-up-side .container {
+  display: flex;
+}
+
 .hero-up-side-bg {
   background-color: var(--dark-bgc);
   color: var(--third-colorFont);
@@ -140,6 +189,7 @@ img {
 }
 
 .modal-btn {
+  padding: 10px 41px;
   width: 200px;
   height: 50px;
   font-weight: 700;
