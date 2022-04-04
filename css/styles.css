@@ -9,6 +9,7 @@
   --dark-bgc: #2f303a;
   --grey-bgc: #f5f4fa;
   --light-bgc: #ffffff;
+  --light2-bgc: #eeeeee;
 }
 
 body {
@@ -406,8 +407,17 @@ img {
 
 .portfolio-list-item {
   margin-bottom: 30px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: var(--light-bgc);
+}
+
+.portfolio-list-item:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
+.portfolio-list-wraper {
+  border-right: 1px solid var(--light2-bgc);
+  border-bottom: 1px solid var(--light2-bgc);
+  border-left: 1px solid var(--light2-bgc);
 }
 
 .portfolio-third-header-name {
